@@ -32,13 +32,11 @@ lower_education_rich = None
 
 # What is the minimum number of hours a person works per week (hours-per-week feature)?
 min_work_hours = df['hours-per-week'].min()
-print(min_work_hours)
 
 # What percentage of the people who work the minimum number of hours per week have a salary of >50K?
 num_min_workers = df['hours-per-week'].value_counts()[min_work_hours]
 
 rich_percentage = (len(df[(df['salary'] == '>50K') & (df['hours-per-week'] == min_work_hours)]) / num_min_workers)*100
-print(rich_percentage)
 
 # What country has the highest percentage of people that earn >50K?
 highest_earning_country = None
