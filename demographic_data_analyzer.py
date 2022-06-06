@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-# Duplicates has to be deleted
+# Duplicates needs to be deleted
 
 # Read data from file
 df = pd.read_csv('adult.data.csv',
