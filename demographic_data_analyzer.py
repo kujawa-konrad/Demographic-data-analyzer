@@ -1,7 +1,7 @@
 # Task done for FreeCodeCamp course
 # Data taken from "adult.data.csv" file
 
-# Probably this could've been way simpler, but FreeCodeCamp test suite was a nightmare to cooperate with
+# Probably this could've been way simpler, but FreeCodeCamp test suite was a nightmare to work with
 
 import pandas as pd
 
