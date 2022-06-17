@@ -2,11 +2,13 @@
 # Data taken from "adult.data.csv" file.
 # Most of comments below were written on replit.com by creators of the task, to make solution clearer.
 
+
 # Probably this could've been way simpler, but FreeCodeCamp test suite was a nightmare to work with.
 
 import pandas as pd
 
 def calculate_demographic_data(print_data=True):
+    
     # Read data from file.
     df = pd.read_csv('adult.data.csv')
 
