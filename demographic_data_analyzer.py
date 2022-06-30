@@ -1,6 +1,6 @@
-# Task done for FreeCodeCamp course
-# Data taken from "adult.data.csv" file
-# Most of comments below were written on replit.com by creators of the task, to make solution clearer
+# Task done for FreeCodeCamp course.
+# Data taken from "adult.data.csv" file.
+# Most of comments below were written on replit.com by creators of the task, to make solution clearer.
 
 
 # Probably this could've been way simpler, but FreeCodeCamp test suite was a nightmare to work with
